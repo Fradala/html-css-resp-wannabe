@@ -129,7 +129,10 @@ img {
  ************************************************/
 
 
- @media all  and (max-width: 480px) {
+ @media screen  and (max-width: 480px) {
+
+
+        
     
         .site-header .text-center{
             font-size: 54px;
@@ -149,16 +152,18 @@ img {
             font-size: 37px;
         }
 
+        p.text{
+            padding: 13px 4px 41px 8px;
+        }
+
         h3.title{
-            display: flex;
-            margin-left: 127px;
+            
             font-size: 30px;
         }
 
         .lessons .col img{
-            display: flex;
-            margin-left: 76px;
-            padding-bottom: 9px;
+            margin-bottom: 34px;
+            height: 221px;
         }
 
         .lessons .col {
@@ -172,18 +177,42 @@ img {
         }
 
 
-        .steps h2,
-        .steps h3{
-            margin: auto;
+        .steps h2{
+        
+            margin-left: 75px;
+        }
+
+        .why-us{
+            background-color: rgb(22, 21, 21);
         }
 
         .why-us .col{
             width: 100%;
+            
+        }
+
+        .why-us .col img{
+            max-width: 83%;
+            margin: auto;
+            display: flex;
+            padding-bottom: 62px;
         }
 
 
+        .why-us .text-center{
+            padding-top: 35px;
+        }
 
-
+        .why-us ul li :first-child{
+            width: 60%;
+        }
 
 
  }      
+
+ @media screen  and (max-width: 768px){
+
+    .container{
+        width: 100%;
+    }
+ }
