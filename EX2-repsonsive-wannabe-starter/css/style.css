@@ -132,8 +132,6 @@ img {
  @media all  and (max-width: 480px) {
     
         .site-header .text-center{
-            padding-bottom: 20px;
-            padding-bottom: 26px;
             font-size: 54px;
             
         }
@@ -147,7 +145,14 @@ img {
 
         h2{
             display: flex;
-            margin-left: 70px;
+            margin-left: 42px;
+            font-size: 37px;
+        }
+
+        h3.title{
+            display: flex;
+            margin-left: 127px;
+            font-size: 30px;
         }
 
         .lessons .col img{
